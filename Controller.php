@@ -10,4 +10,9 @@ class DudomController
 	{
 		
 	}
+
+	public function get()
+	{
+		
+	}
 }
