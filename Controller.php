@@ -13,6 +13,6 @@ class DudomController
 
 	public function get()
 	{
-		
+		echo __METHOD__;
 	}
 }
