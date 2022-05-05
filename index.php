@@ -2,6 +2,10 @@
 error_reporting(-1);
 ini_set('display_errors', '1');
 
-$greeting = 'Hello, World!';
+$name = [
+  'John',
+  'Dane',
+  'Tony',
+];
 
-require_once 'index.view.php';
+include_once 'index.view.php';

@@ -5,7 +5,9 @@
 </head>
 <body>
 
-<h1><?= $greeting; ?></h1>
+  <?php foreach($name as $value): ?>
+    <li><?= $value ?></li>
+  <?php endforeach; ?>
 
 </body>
 </html>
