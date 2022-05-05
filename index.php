@@ -9,6 +9,7 @@ $person = [
   'age' => 32,
   'hair' => 'brown',
   'prof' => 'web developer',
+  'complete' => false,
 ];
 
 dd($person);
