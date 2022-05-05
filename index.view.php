@@ -6,7 +6,9 @@
 <body>
 
   <?php foreach($person as $key => $value): ?>
-    <li><strong><?= $key ?> </strong><?= $value ?></li>
+    <li>
+      <strong><?= $key ?> </strong><?= $value ?>
+    </li>
   <?php endforeach; ?>
 
 </body>
