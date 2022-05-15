@@ -1,0 +1,14 @@
+{
+	"name": "evgenyul/hello-world",
+	"description": "This is test package",
+	"license": "MIT",
+	"homepage": "https://google.com",
+	"require": {
+		"monolog/monolog": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Evgeny\\Hello\\": "src/"
+		}
+	}
+}
